@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body{
     width: 100%;
+   
 }
 
 header{
@@ -16,8 +20,9 @@ justify-content: right;
 background-color: grey;
 align-items: center;
 padding: 10px;
-
-
+position: fixed;
+width: 100%;
+top:0px;
 }
 
 header a{
@@ -46,8 +51,30 @@ header a:hover{
 
 
 
-
 nav a{
     
     text-decoration: none;
 }
+
+section{    
+    border: 20px solid rgb(221, 221, 221);
+    height: calc(100vh - 5rem);
+   
+    padding: 3rem;
+}
+
+h2{
+    text-align: center;
+}
+
+#listas{
+    margin-top: 5rem;
+}
+
+table, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0rem 5rem 0rem 5rem;
+  }
+
